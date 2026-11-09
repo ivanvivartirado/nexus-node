@@ -23,7 +23,7 @@ services:
       - db
 
   web-core:
-    image: nginx:1.30-alpine
+    image: nginx:1.31-alpine
     container_name: web-core
     restart: always
     volumes:
@@ -44,7 +44,7 @@ services:
       - "127.0.0.1:8888:8080"
 
   gateway:
-    image: nginx:1.30-alpine
+    image: nginx:1.31-alpine
     container_name: gateway
     restart: always
     ports:
