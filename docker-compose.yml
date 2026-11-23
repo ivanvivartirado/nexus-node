@@ -30,7 +30,7 @@ services:
       - ./web:/usr/share/nginx/html:ro
 
   dozzle:
-    image: amir20/dozzle:v11.4.1
+    image: amir20/dozzle:v11.5.0
     container_name: dozzle
     restart: always
     environment:
